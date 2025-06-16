@@ -5,10 +5,10 @@ openai_api_key = os.environ["OPENAI_API_KEY"]
 
 from langchain_openai import ChatOpenAI
 
-llm = ChatOpenAI(model="gpt-3.5-turbo-0125")
+llm = ChatOpenAI(model="gpt-4o-mini")
 
 from langchain.memory import ChatMessageHistory
-
+l
 history = ChatMessageHistory()
 
 history.add_user_message("hi!")
